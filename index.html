@@ -1,0 +1,33 @@
+<!--The page should prompt the user to enter their current age.
+If the user is too young to vote, they should see different information than if the user is old enough to legally vote.
+Minors should be offered links to websites where they may learn about the voting process and age requirements.
+Those old enough to vote should be offered links to websites to register to vote, locate their nearest polling location/ballot dropbox is, or list when upcoming elections will take place-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Voting Site</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="oldEnough">
+        <p>Here's additional information about how to register to vote, your nearest polling location, etc.</p>
+        <ul>
+          <li>Register to vote</li>
+          <li>Find a polling location</li>
+        </ul>
+      </div>
+      <div id="notOldEnough">
+        <p>Sorry, but you can't vote yet. That doesn't mean you can't learn about the process though! Check these resources out:</p>
+        <ul>
+          <li>Bla bla bla</li>
+          <li> Bla bla bla</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
